@@ -33,6 +33,12 @@
     ( () => {
         "use strict";
         a(419);
+
+
+// ===============================
+        // 这里用来写项目start
+// ===============================
+        
         const e = [{
             title: "BEHAVIOR",
             image: "assets/research/carousel-behavior.jpg",
@@ -83,6 +89,11 @@
             image: "assets/research/ilsvrc_challenge.jpg",
             content: '<p>ImageNet is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the hierarchy is depicted by hundreds and thousands of images. As the largest labelled image data set at the time of its release in 2009, ImageNet has helped to pave the way for today’s advances in visual recognition.</p>\n              <p>Check out our <a class="link-sytle" href="http://www.image-net.org/">Link</a>.</p>'
         }];
+
+
+// ===============================
+        // 这里用来写项目end
+// ===============================
         document.addEventListener("DOMContentLoaded", (function a() {
             document.removeEventListener("DOMContentLoaded", a);
             let n = document.getElementById("svl-current-research--article-container");
