@@ -1193,6 +1193,38 @@
                             { href: "https://github.com/mengxiangming/QCS-SGM-plus", text: "code" }
                         ]
                     },{
+                        authors: [MXM, YK],
+                        authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
+                        image: "",
+                        title: "Quantized Compressed Sensing with Score-Based Generative Models",
+                        info: "ICLR 2023",
+                        refs: [
+                            { href: "https://arxiv.org/abs/2211.13006", text: "arXiv" },
+                            { href: "https://github.com/mengxiangming/QCS-SGM", text: "code" }
+                        ]
+                    },{
+                        authors: [MXM, YK],
+                        authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
+                        image: "/images/aistats2023cover.png",
+                        title: "On Model Selection Consistency of Lasso for High-Dimensional Ising Models",
+                        info: "AISTATS 2023",
+                        refs: [
+                            { href: "https://arxiv.org/abs/2102.03988", text: "arXiv" },
+                            { href: "http://aistats.org/aistats2023/accepted.html", text: "AISTATS" }
+                        ]
+                    },{
+                        authors: [MXM, YK],
+                        authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
+                        image: "/images/NeurIPS2021_paper.png",
+                        title: "Ising Model Selection Using L1-Regularized Linear Regression: A Statistical Mechanics Analysis",
+                        info: "NeurIPS 2021",
+                        refs: [
+                            { href: "https://arxiv.org/abs/2102.03988", text: "arXiv" },
+                            { href: "https://proceedings.neurips.cc/paper/2021/hash/31917677a66c6eddd3ab1f68b0679e2f-Abstract.html", text: "NeurIPS" },
+                            { href: "https://slideslive.com/38968645/ising-model-selection-using-l1regularized-linear-regression-a-statistical-mechanics-analysis?ref=recommended", text: "video" },
+                            { href: "https://neurips.cc/media/neurips-2021/Slides/28748.pdf", text: "slides" }
+                        ]
+                    },{
                         authors: [MXM],
                         authorsText: "Xiangming Meng, Roman Bachmann, Mohammad Emtiyaz Khan*",
                         image: "",
