@@ -1178,6 +1178,48 @@ const Se = "Juan Carlos Niebles",
         name: "Abstracts",
         publications: [
             {
+                authors: [De],
+                authorsText: "J. Clemons, Y. Bao, M. Bagra, T. Austin, S. Savarese,",
+                image: "",
+                title: "Scene Understanding for the Visually Impaired Using Visual Sonification by Visual Feature Analysis and Auditory Signature",
+                info: "Proc. of Vision Science Society, May 2012.",
+                refs: []
+            },
+            {
+                authors: [De],
+                authorsText: "S. Savarese, A. Del Pozo, D. Baker, D.J. Simons,",
+                image: "",
+                title: "When are reflections useful in perceiving the shape of shiny surfaces?",
+                info: "Proc. of Vision Science Society, Florida, May 2008",
+                refs: []
+            },
+            {
+                authors: [De],
+                authorsText: "M. Golparvar Fard, S. Savarese, F. Pena-Mora,",
+                image: "",
+                title: "Interactive Visual Construction Progress Monitoring with 4D Augmented Reality Model",
+                info: "CCBE-XI, Beijing, October 16-18, 2008",
+                refs: []
+            },
+            {
+                authors: [De],
+                authorsText: "A. Del Pozo, S. Savarese, D. Baker, D. J. Simons,",
+                image: "",
+                title: "Why do we see some surfaces as reflective?",
+                info: "Proc. of Vision Science Society, Florida, May 2008",
+                refs: []
+            },
+            {
+                authors: [Pe, De],
+                authorsText: "S. Savarese, L. Fei-Fei and P. Perona,",
+                image: "",
+                title: "Can We See the Shape of a Mirror?",
+                info: "Proc. of Vision Science Society, Florida, May 2003.",
+                refs: [
+                    { href: "http://journalofvision.org/3/9/74/", text: "Abstract" }
+                ]
+            },
+            {
                 authors: [MXM, YK],
                 authorsText: "Xiangming Meng*, Yoshiyuki Kabashima,",
                 image: "",
@@ -1245,7 +1287,7 @@ const Se = "Juan Carlos Niebles",
     }];
 // ===========================================================
 //   这里添加文章ending
-// ==========================================================  
+// ==========================================================
  
 
 
