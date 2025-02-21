@@ -1250,6 +1250,8 @@
           , Pe = "L. Fei-Fei"
           , De = "Silvio Savarese"
           , Te = "Jiajun Wu"
+          , MXM = "Xiangming Meng",
+          , YK = "Yoshiyuki Kabashima"
 
 
 
