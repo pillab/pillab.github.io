@@ -1279,39 +1279,63 @@
                     { href: "https://github.com/mengxiangming/dmps", text: "code" }
             ]
             },
-                       
+
+           {
+                authors: [MXM, YK],
+                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima,",
+                image: "",
+                title: "QCM-SGM+: Improved Quantized Compressed Sensing With Score-Based Generative Models",
+                info: "AAAI 2024",
+                refs: [
+                    { href: "https://arxiv.org/abs/2302.00919v2", text: "arXiv" },
+                    { href: "https://github.com/mengxiangming/QCS-SGM-plus", text: "code" }
+                ]
+            },
             {
-                authors: [De],
-                authorsText: "S. Savarese, A. Del Pozo, D. Baker, D.J. Simons,",
+                authors: [MXM],
+                authorsText: "Xiangming Meng, Roman Bachmann, Mohammad Emtiyaz Khan*,",
                 image: "",
-                title: "When are reflections useful in perceiving the shape of shiny surfaces?",
-                info: "Proc. of Vision Science Society, Florida, May 2008",
-                refs: []
-            }, {
-                authors: [De],
-                authorsText: "M. Golparvar Fard, S. Savarese, F. Pena-Mora,",
+                title: "Training Binary Neural Networks using the Bayesian Learning Rule",
+                info: "ICML 2020",
+                refs: [
+                    { href: "https://arxiv.org/abs/2002.10778", text: "arXiv" },
+                    { href: "https://github.com/team-approx-bayes/BayesBiNN", text: "code" }
+                ]
+            },
+            {
+                authors: [MXM],
+                authorsText: "Xiangming Meng, Lei Zhang, Chao Wang, Wenjin Wang, Yiqun Wu, Yan Chen*,",
                 image: "",
-                title: "Interactive Visual Construction Progress Monitoring with 4D Augmented Reality Model",
-                info: "CCBE-XI, Beijing, October 16-18, 2008",
-                refs: []
-            }, {
-                authors: [De],
-                authorsText: "A. Del Pozo, S. Savarese, D. Baker, D. J. Simons,",
+                title: "Advanced NOMA Receivers From a Unified Variational Inference Perspective",
+                info: "IEEE JSAC 2021",
+                refs: [
+                    { href: "https://ieeexplore.ieee.org/abstract/document/9181630", text: "IEEE" }
+                ]
+            },
+            {
+                authors: [MXM, SW, LZ, WJW],
+                authorsText: "Xiangming Meng, Sheng Wu, Linling Kuang, Jianhua Lu*,",
                 image: "",
-                title: "Why do we see some surfaces as reflective?",
-                info: "Proc. of Vision Science Society, Florida, May 2008",
-                refs: []
-            }, {
-                authors: [Pe, De],
-                authorsText: "S. Savarese, L. Fei-Fei and P. Perona,",
+                title: "An Expectation Propagation Perspective on Approximate Message Passing",
+                info: "SPL 2015",
+                refs: [
+                    { href: "https://ieeexplore.ieee.org/abstract/document/7008468", text: "IEEE" }
+                ]
+            },
+            {
+                authors: [MXM, JZ],
+                authorsText: "Xiangming Meng*, Sheng Wu, Jiang Zhu,",
                 image: "",
-                title: "Can We See the Shape of a Mirror?",
-                info: "Proc. of Vision Science Society, Florida, May 2003.",
-                refs: [{
-                    href: "http://journalofvision.org/3/9/74/",
-                    text: "Abstract"
-                }]
-            }]
+                title: "A unified Bayesian Inference Framework for Generalized Linear Models",
+                info: "SPL 2018",
+                refs: [
+                    { href: "https://arxiv.org/abs/1712.10288", text: "arXiv" },
+                    { href: "https://ieeexplore.ieee.org/abstract/document/8244269/", text: "IEEE" }
+                ]
+            }                           
+
+                           
+            ]
         }];
 
 // ===========================================================
