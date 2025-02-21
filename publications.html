@@ -3,7 +3,7 @@
     <head>
         <style>
             body {
-                visibility: hidden;
+                visibility: visible; /* Changed from hidden to visible */
             }
         </style>
         <meta charset="utf-8">
@@ -40,7 +40,6 @@
                         <a class="navbar-item active" href="/publications">
                             <div class="svl-navbar-item-container">Publications</div>
                         </a>
-                        <!---->
                     </div>
                 </div>
             </div>
@@ -52,6 +51,8 @@
                     <input class="search-input" id="search_input" name="text" type="text" placeholder="Search...">
                 </div>
                 <div class="search-results" id="search_results"></div>
+                <!-- Add the publications container here -->
+                <div id="publications"></div> <!-- This will hold the publications -->
             </div>
         </div>
         <footer class="footer">
