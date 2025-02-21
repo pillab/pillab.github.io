@@ -1170,67 +1170,68 @@
         //   这里添加文章starting
 // ==========================================================
           , ye = [{
-            name: "Abstracts",
-            publications: [{
-                authors: [MXM, YK],
-                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
-                image: "",
-                title: "Diffusion Model Based Posterior Sampling for Noisy Linear Inverse Problems",
-                info: "ACML 2024 - Best Paper Runner-Up Award",
-                refs: [
-                    { href: "https://arxiv.org/abs/2211.12343", text: "arXiv" },
-                    { href: "https://github.com/mengxiangming/dmps", text: "code" }
-                ]
-            }, {
-                authors: [MXM, YK],
-                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
-                image: "",
-                title: "QCM-SGM+: Improved Quantized Compressed Sensing With Score-Based Generative Models",
-                info: "AAAI 2024",
-                refs: [
-                    { href: "https://arxiv.org/abs/2302.00919v2", text: "arXiv" },
-                    { href: "https://github.com/mengxiangming/QCS-SGM-plus", text: "code" }
-                ]
-            }, {
-                authors: [MXM],
-                authorsText: "Xiangming Meng, Roman Bachmann, Mohammad Emtiyaz Khan*",
-                image: "",
-                title: "Training Binary Neural Networks using the Bayesian Learning Rule",
-                info: "ICML 2020",
-                refs: [
-                    { href: "https://arxiv.org/abs/2002.10778", text: "arXiv" },
-                    { href: "https://github.com/team-approx-bayes/BayesBiNN", text: "code" }
-                ]
-            },{
-                authors: [MXM],
-                authorsText: "Xiangming Meng, Lei Zhang, Chao Wang, Wenjin Wang, Yiqun Wu, Yan Chen*",
-                image: "",
-                title: "Advanced NOMA Receivers From a Unified Variational Inference Perspective",
-                info: "IEEE JSAC 2021",
-                refs: [
-                    { href: "https://ieeexplore.ieee.org/abstract/document/9181630", text: "IEEE" }
-                ]
-            },{
-                authors: [MXM],
-                authorsText: "Xiangming Meng, Sheng Wu, Linling Kuang, Jianhua Lu*",
-                image: "",
-                title: "An Expectation Propagation Perspective on Approximate Message Passing",
-                info: "IEEE SPL 2015",
-                refs: [
-                    { href: "https://ieeexplore.ieee.org/abstract/document/7008468", text: "IEEE" }
-                ]
-            }, {
-                authors: [MXM],
-                authorsText: "Xiangming Meng*, Sheng Wu, Jiang Zhu",
-                image: "",
-                title: "A unified Bayesian Inference Framework for Generalized Linear Models",
-                info: "IEEE SPL 2018",
-                refs: [
-                    { href: "https://arxiv.org/abs/1712.10288", text: "arXiv" },
-                    { href: "https://ieeexplore.ieee.org/abstract/document/8244269/", text: "IEEE" }
-                ]
-            }]
-        }];
+                    name: "Abstracts",
+                    publications: 
+                    [{
+                        authors: [MXM, YK],
+                        authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
+                        image: "",
+                        title: "Diffusion Model Based Posterior Sampling for Noisy Linear Inverse Problems",
+                        info: "ACML 2024 - Best Paper Runner-Up Award",
+                        refs: [
+                            { href: "https://arxiv.org/abs/2211.12343", text: "arXiv" },
+                            { href: "https://github.com/mengxiangming/dmps", text: "code" }
+                        ]
+                    },{
+                        authors: [MXM, YK],
+                        authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
+                        image: "",
+                        title: "QCM-SGM+: Improved Quantized Compressed Sensing With Score-Based Generative Models",
+                        info: "AAAI 2024",
+                        refs: [
+                            { href: "https://arxiv.org/abs/2302.00919v2", text: "arXiv" },
+                            { href: "https://github.com/mengxiangming/QCS-SGM-plus", text: "code" }
+                        ]
+                    },{
+                        authors: [MXM],
+                        authorsText: "Xiangming Meng, Roman Bachmann, Mohammad Emtiyaz Khan*",
+                        image: "",
+                        title: "Training Binary Neural Networks using the Bayesian Learning Rule",
+                        info: "ICML 2020",
+                        refs: [
+                            { href: "https://arxiv.org/abs/2002.10778", text: "arXiv" },
+                            { href: "https://github.com/team-approx-bayes/BayesBiNN", text: "code" }
+                        ]
+                    },{
+                        authors: [MXM],
+                        authorsText: "Xiangming Meng, Lei Zhang, Chao Wang, Wenjin Wang, Yiqun Wu, Yan Chen*",
+                        image: "",
+                        title: "Advanced NOMA Receivers From a Unified Variational Inference Perspective",
+                        info: "IEEE JSAC 2021",
+                        refs: [
+                            { href: "https://ieeexplore.ieee.org/abstract/document/9181630", text: "IEEE" }
+                        ]
+                    },{
+                        authors: [MXM],
+                        authorsText: "Xiangming Meng, Sheng Wu, Linling Kuang, Jianhua Lu*",
+                        image: "",
+                        title: "An Expectation Propagation Perspective on Approximate Message Passing",
+                        info: "IEEE SPL 2015",
+                        refs: [
+                            { href: "https://ieeexplore.ieee.org/abstract/document/7008468", text: "IEEE" }
+                        ]
+                    }, {
+                        authors: [MXM],
+                        authorsText: "Xiangming Meng*, Sheng Wu, Jiang Zhu",
+                        image: "",
+                        title: "A unified Bayesian Inference Framework for Generalized Linear Models",
+                        info: "IEEE SPL 2018",
+                        refs: [
+                            { href: "https://arxiv.org/abs/1712.10288", text: "arXiv" },
+                            { href: "https://ieeexplore.ieee.org/abstract/document/8244269/", text: "IEEE" }
+                        ]
+                    }]
+                }];
 
 // ===========================================================
         //   这里添加文章ending
