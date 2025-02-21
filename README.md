@@ -52,8 +52,10 @@
 `js/research.js` line39
 
 3. add people 
-`people.html`
-可以没有照片，只需要改变
+`people.html` line 111
+可以没有照片，只需要删掉<img src="/assets/people/personnel/youngjoong_kwon.jpg">
+
+即改变
 ```
                     <div class="column">
                         <article class="media svl-people--member-article">
