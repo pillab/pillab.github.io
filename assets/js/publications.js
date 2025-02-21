@@ -1249,7 +1249,7 @@
                 return e
             }()
               , t = function(e) {
-                var t = '<em>&nbsp&nbsp&nbspProf. Fei-Fei Li publishes under the name "L. Fei-Fei".</em>';
+                var t = '<em>For an up-to-date publication list, please see the <a href="https://scholar.google.com/citations?user=oV70ZoQAAAAJ&hl=en">Google Scholar</a> page.</em>';
                 for (const i in e.docs)
                     t += Ae(e.docs[i]);
                 return Le.innerHTML = t,
@@ -1257,7 +1257,7 @@
             }(e);
             we.addEventListener("keyup", (async function() {
                 "" != we.value ? function(e) {
-                    var t = '<em>&nbsp&nbsp&nbspProf. Fei-Fei Li publishes under the name "L. Fei-Fei".</em>';
+                    var t = '<em>For an up-to-date publication list, please see the <a href="https://scholar.google.com/citations?user=oV70ZoQAAAAJ&hl=en">Google Scholar</a> page.</em>';
                     e.sort((function(e, t) {
                         var i = "\\b(19|20)\\d{2}\\b"
                           , a = e.document.info.match(i)
