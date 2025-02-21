@@ -53,3 +53,33 @@
 
 3. add people 
 `people.html`
+可以没有照片，只需要改变
+```
+                    <div class="column">
+                        <article class="media svl-people--member-article">
+                            <figure class="media-left image svl-people--member-pic"><img
+                                    src="/assets/people/personnel/youngjoong_kwon.jpg">
+                            </figure>
+                            <div class="media-content">
+                                <p><span class="svl-people--member-title"><a href="http://weiyuliu.com/">Weiyu
+                                            Liu</a></span><br>Postdoctoral Researcher<br><span class="mono">weiyul [at] stanford [dot]
+                                        edu</span><br></p>
+                            </div>
+                        </article>
+                    </div>
+```
+为
+```
+                    <div class="column">
+                        <article class="media svl-people--member-article">
+                            <figure class="media-left image svl-people--member-pic">
+                            </figure>
+                            <div class="media-content">
+                                <p><span class="svl-people--member-title"><a href="http://weiyuliu.com/">Weiyu
+                                            Liu</a></span><br>Postdoctoral Researcher<br><span class="mono">weiyul [at] stanford [dot]
+                                        edu</span><br></p>
+                            </div>
+                        </article>
+                    </div>
+```
+如果要增加人，复制粘贴上面代码块
