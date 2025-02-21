@@ -1313,7 +1313,7 @@
                 ]
             },
             {
-                authors: [MXM, SW, LZ, WJW],
+                authors: [MXM],
                 authorsText: "Xiangming Meng, Sheng Wu, Linling Kuang, Jianhua Lu*,",
                 image: "",
                 title: "An Expectation Propagation Perspective on Approximate Message Passing",
@@ -1323,7 +1323,7 @@
                 ]
             },
             {
-                authors: [MXM, JZ],
+                authors: [MXM],
                 authorsText: "Xiangming Meng*, Sheng Wu, Jiang Zhu,",
                 image: "",
                 title: "A unified Bayesian Inference Framework for Generalized Linear Models",
