@@ -1317,7 +1317,7 @@
                 authorsText: "Xiangming Meng, Sheng Wu, Linling Kuang, Jianhua Lu*,",
                 image: "",
                 title: "An Expectation Propagation Perspective on Approximate Message Passing",
-                info: "SPL 2015",
+                info: "IEEE SPL 2015",
                 refs: [
                     { href: "https://ieeexplore.ieee.org/abstract/document/7008468", text: "IEEE" }
                 ]
@@ -1327,7 +1327,7 @@
                 authorsText: "Xiangming Meng*, Sheng Wu, Jiang Zhu,",
                 image: "",
                 title: "A unified Bayesian Inference Framework for Generalized Linear Models",
-                info: "SPL 2018",
+                info: "IEEE SPL 2018",
                 refs: [
                     { href: "https://arxiv.org/abs/1712.10288", text: "arXiv" },
                     { href: "https://ieeexplore.ieee.org/abstract/document/8244269/", text: "IEEE" }
