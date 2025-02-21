@@ -1164,37 +1164,33 @@
             }
         }
 
-    
-        const Se = "Juan Carlos Niebles"
-          , Pe = "L. Fei-Fei"
-          , De = "Silvio Savarese"
-          , Te = "Jiajun Wu"
-          , MXM = "Xiangming Meng"
-          , YK = "Yoshiyuki Kabashima"
-
-
+const Se = "Juan Carlos Niebles",
+      Pe = "L. Fei-Fei",
+      De = "Silvio Savarese",
+      Te = "Jiajun Wu",
+      MXM = "Xiangming Meng",
+      YK = "Yoshiyuki Kabashima";
 
 // ===========================================================
-        //   这里添加文章starting
+//   这里添加文章starting
 // ==========================================================
-          , ye = [{
-            name: "Abstracts",
-            publications: [
+      , ye = [{
+        name: "Abstracts",
+        publications: [
             {
                 authors: [MXM, YK],
-                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima,",
+                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
                 image: "",
                 title: "Diffusion Model Based Posterior Sampling for Noisy Linear Inverse Problems",
                 info: "ACML 2024 - Best Paper Runner-Up Award",
                 refs: [
                     { href: "https://arxiv.org/abs/2211.12343", text: "arXiv" },
                     { href: "https://github.com/mengxiangming/dmps", text: "code" }
-            ]
+                ]
             },
-
-           {
+            {
                 authors: [MXM, YK],
-                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima,",
+                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
                 image: "",
                 title: "QCM-SGM+: Improved Quantized Compressed Sensing With Score-Based Generative Models",
                 info: "AAAI 2024",
@@ -1205,7 +1201,7 @@
             },
             {
                 authors: [MXM],
-                authorsText: "Xiangming Meng, Roman Bachmann, Mohammad Emtiyaz Khan*,",
+                authorsText: "Xiangming Meng, Roman Bachmann, Mohammad Emtiyaz Khan*",
                 image: "",
                 title: "Training Binary Neural Networks using the Bayesian Learning Rule",
                 info: "ICML 2020",
@@ -1216,7 +1212,7 @@
             },
             {
                 authors: [MXM],
-                authorsText: "Xiangming Meng, Lei Zhang, Chao Wang, Wenjin Wang, Yiqun Wu, Yan Chen*,",
+                authorsText: "Xiangming Meng, Lei Zhang, Chao Wang, Wenjin Wang, Yiqun Wu, Yan Chen*",
                 image: "",
                 title: "Advanced NOMA Receivers From a Unified Variational Inference Perspective",
                 info: "IEEE JSAC 2021",
@@ -1226,7 +1222,7 @@
             },
             {
                 authors: [MXM],
-                authorsText: "Xiangming Meng, Sheng Wu, Linling Kuang, Jianhua Lu*,",
+                authorsText: "Xiangming Meng, Sheng Wu, Linling Kuang, Jianhua Lu*",
                 image: "",
                 title: "An Expectation Propagation Perspective on Approximate Message Passing",
                 info: "IEEE SPL 2015",
@@ -1236,7 +1232,7 @@
             },
             {
                 authors: [MXM],
-                authorsText: "Xiangming Meng*, Sheng Wu, Jiang Zhu,",
+                authorsText: "Xiangming Meng*, Sheng Wu, Jiang Zhu",
                 image: "",
                 title: "A unified Bayesian Inference Framework for Generalized Linear Models",
                 info: "IEEE SPL 2018",
@@ -1244,15 +1240,13 @@
                     { href: "https://arxiv.org/abs/1712.10288", text: "arXiv" },
                     { href: "https://ieeexplore.ieee.org/abstract/document/8244269/", text: "IEEE" }
                 ]
-            }                           
-
-                           
-            ]
-        }];
-
+            }
+        ]
+    }];
 // ===========================================================
-        //   这里添加文章ending
-// ==========================================================
+//   这里添加文章ending
+// ==========================================================    
+ 
 
 
 
