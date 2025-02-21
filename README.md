@@ -2,7 +2,7 @@
 
 更新
 1. add publication 
-js/publications.js line1174
+`js/publications.js` line1174
 
 
 这里最简格式如图
@@ -49,7 +49,7 @@ js/publications.js line1174
 ```
 
 2. add research project 
-js/research.js line39
+`js/research.js` line39
 
 3. add people 
-people.html
+`people.html`
