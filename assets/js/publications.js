@@ -1164,8 +1164,9 @@
             }
         }
 
+
 const MXM = "Xiangming Meng",
-      YK = "Yoshiyuki Kabashima";
+      YK = "Yoshiyuki Kabashima",
 
 // ===========================================================
 //   这里添加文章starting
@@ -1175,7 +1176,7 @@ const MXM = "Xiangming Meng",
         publications: [
             {
                 authors: [MXM, YK],
-                authorsText: "Xiangming Meng, Yoshiyuki Kabashima",
+                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
                 image: "",
                 title: "Diffusion Model Based Posterior Sampling for Noisy Linear Inverse Problems",
                 info: "ACML 2024 - Best Paper Runner-Up Award",
@@ -1186,7 +1187,7 @@ const MXM = "Xiangming Meng",
             },
             {
                 authors: [MXM, YK],
-                authorsText: "Xiangming Meng, Yoshiyuki Kabashima",
+                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
                 image: "",
                 title: "QCM-SGM+: Improved Quantized Compressed Sensing With Score-Based Generative Models",
                 info: "AAAI 2024",
@@ -1196,19 +1197,8 @@ const MXM = "Xiangming Meng",
                 ]
             },
             {
-                authors: [MXM, YK],
-                authorsText: "Xiangming Meng, Yoshiyuki Kabashima",
-                image: "",
-                title: "On Model Selection Consistency of Lasso for High-Dimensional Ising Models",
-                info: "AISTATS 2023",
-                refs: [
-                    { href: "https://arxiv.org/abs/2110.08500", text: "arXiv" },
-                    { href: "http://aistats.org/aistats2023/accepted.html", text: "AISTATS" }
-                ]
-            },
-            {
-                authors: [MXM, YK],
-                authorsText: "Xiangming Meng, Yoshiyuki Kabashima",
+                authors: [MXM],
+                authorsText: "Xiangming Meng*, Roman Bachmann, Mohammad Emtiyaz Khan",
                 image: "",
                 title: "Training Binary Neural Networks using the Bayesian Learning Rule",
                 info: "ICML 2020",
@@ -1218,8 +1208,8 @@ const MXM = "Xiangming Meng",
                 ]
             },
             {
-                authors: [MXM, YK],
-                authorsText: "Xiangming Meng, Yoshiyuki Kabashima",
+                authors: [MXM],
+                authorsText: "Xiangming Meng*, Lei Zhang, Chao Wang, Wenjin Wang, Yiqun Wu, Yan Chen",
                 image: "",
                 title: "Advanced NOMA Receivers From a Unified Variational Inference Perspective",
                 info: "JSAC 2021",
@@ -1228,8 +1218,8 @@ const MXM = "Xiangming Meng",
                 ]
             },
             {
-                authors: [MXM, YK],
-                authorsText: "Xiangming Meng, Yoshiyuki Kabashima",
+                authors: [MXM],
+                authorsText: "Xiangming Meng*, Sheng Wu, Linling Kuang, Jianhua Lu",
                 image: "",
                 title: "An Expectation Propagation Perspective on Approximate Message Passing",
                 info: "SPL 2015",
@@ -1238,8 +1228,8 @@ const MXM = "Xiangming Meng",
                 ]
             },
             {
-                authors: [MXM, YK],
-                authorsText: "Xiangming Meng, Yoshiyuki Kabashima",
+                authors: [MXM],
+                authorsText: "Xiangming Meng*, Sheng Wu, Jiang Zhu",
                 image: "",
                 title: "A unified Bayesian Inference Framework for Generalized Linear Models",
                 info: "SPL 2018",
@@ -1252,8 +1242,8 @@ const MXM = "Xiangming Meng",
     }];
 // ===========================================================
 //   这里添加文章ending
-// ==========================================================  
-
+// ==========================================================
+    
 
     
 //         const Se = "Juan Carlos Niebles"
@@ -1312,7 +1302,6 @@ const MXM = "Xiangming Meng",
 // // ===========================================================
 //         //   这里添加文章ending
 // // ==========================================================
-
 
 
 
