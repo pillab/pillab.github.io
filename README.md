@@ -1,7 +1,7 @@
 # Welcome to the Probabilistic Inference and Learning Lab (PIL)
 
-更新
-1. add publication 
+
+## 1. add publication 
 `js/publications.js` line1174
 
 
@@ -48,10 +48,10 @@
                     }
 ```
 
-2. add research project 
+## 2. add research project 
 `js/research.js` line39
 
-3. add people 
+## 3. add people 
 `people.html` line 111
 可以没有照片，只需要删掉`<img src="/assets/people/personnel/youngjoong_kwon.jpg">`
 
