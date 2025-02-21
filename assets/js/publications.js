@@ -1267,18 +1267,19 @@
                 title: "Scene Understanding for the Visually Impaired Using Visual Sonification by Visual Feature Analysis and Auditory Signature",
                 info: "Proc. of Vision Science Society, May 2012.",
                 refs: []
-            },  {
+            }, 
+            {
                 authors: [MXM, YK],
-                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima",
+                authorsText: "Xiangming Meng*, Yoshiyuki Kabashima,",
                 image: "",
                 title: "Diffusion Model Based Posterior Sampling for Noisy Linear Inverse Problems",
                 info: "ACML 2024 - Best Paper Runner-Up Award",
                 refs: [
                     { href: "https://arxiv.org/abs/2211.12343", text: "arXiv" },
                     { href: "https://github.com/mengxiangming/dmps", text: "code" }
-                ]
+            ]
             },
-                           
+                       
             {
                 authors: [De],
                 authorsText: "S. Savarese, A. Del Pozo, D. Baker, D.J. Simons,",
