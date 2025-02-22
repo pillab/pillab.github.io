@@ -324,7 +324,7 @@ with amazing speed and efficiency.</p>
     <!-- ======================= -->
 
 
- <style>
+<style>
     .event {
         margin-bottom: 20px;
     }
@@ -335,7 +335,16 @@ with amazing speed and efficiency.</p>
     .event-description {
         display: inline-block;
     }
+    #moreNews {
+        color: blue;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .hidden {
+        display: none;
+    }
 </style>
+
 <section class="section">
     <div class="container">
         <div class="svl-home--section_top">
@@ -343,41 +352,62 @@ with amazing speed and efficiency.</p>
         </div>
 
         <!-- News Entries -->
-        <div class="event">
-            <div class="event-date"></div> <!-- Empty date placeholder -->
-            <div class="event-description">Xiangming Meng was invited to serve as an Area Chair for <a href="https://neurips.cc//">NeurIPS 2025</a>.</div>
+        <div id="news-container">
+            <div class="event">
+                <div class="event-date"></div> <!-- Empty date placeholder -->
+                <div class="event-description">Xiangming Meng was invited to serve as an Area Chair for <a href="https://neurips.cc//">NeurIPS 2025</a>.</div>
+            </div>
+            <div class="event">
+                <div class="event-date"></div>
+                <div class="event-description">One paper was accepted by ICLR 2025.</div>
+            </div>
+            <div class="event">
+                <div class="event-date"></div>
+                <div class="event-description">Xiangming Meng was invited to serve as an Area Chair for <a href="https://icml.cc//">ICML 2025</a>.</div>
+            </div>
+            <div class="event">
+                <div class="event-date"></div>
+                <div class="event-description">Our DMPS paper has won <span style="color: red;">ACML Best Paper Runner-UP award</span>.</div>
+            </div>
+            <div class="event">
+                <div class="event-date"></div>
+                <div class="event-description">Xiangming Meng was invited to serve as an Area Chair for <a href="https://iclr.cc/">ICLR 2025</a>.</div>
+            </div>
+            <div class="event">
+                <div class="event-date"></div>
+                <div class="event-description">One paper was accepted by IJCAI 2024.</div>
+            </div>
+            <div class="event">
+                <div class="event-date"></div>
+                <div class="event-description">Xiangming Meng was invited to serve as an Area Chair for <a href="https://neurips.cc/">NeurIPS 2024</a>.</div>
+            </div>
+            <div class="event">
+                <div class="event-date"></div>
+                <div class="event-description">One paper was accepted by AAAI 2024.</div>
+            </div>
+            <!-- Add more news here if needed -->
         </div>
-        <div class="event">
-            <div class="event-date"></div> <!-- Empty date placeholder -->
-            <div class="event-description">Our paper was accepted by ICLR 2025.</div>
-        </div>
-        <div class="event">
-            <div class="event-date"></div> <!-- Empty date placeholder -->
-            <div class="event-description">Xiangming Meng was invited to serve as an Area Chair for <a href="https://icml.cc//">ICML 2025</a>.</div>
-        </div>
-        <div class="event">
-            <div class="event-date"></div> <!-- Empty date placeholder -->
-            <div class="event-description">Our DMPS paper has won <span style="color: red;">ACML Best Paper Runner-UP award</span>.</div>
-        </div>
-        <div class="event">
-            <div class="event-date"></div> <!-- Empty date placeholder -->
-            <div class="event-description">Xiangming Meng was invited to serve as an Area Chair for <a href="https://iclr.cc/">ICLR 2025</a>.</div>
-        </div>
-        <div class="event">
-            <div class="event-date"></div> <!-- Empty date placeholder -->
-            <div class="event-description">One paper was accepted by IJCAI 2024.</div>
-        </div>
-        <div class="event">
-            <div class="event-date"></div> <!-- Empty date placeholder -->
-            <div class="event-description">Xiangming Meng was invited to serve as an Area Chair for <a href="https://neurips.cc/">NeurIPS 2024</a>.</div>
-        </div>
-        <div class="event">
-            <div class="event-date"></div> <!-- Empty date placeholder -->
-            <div class="event-description">One paper was accepted by AAAI 2024.</div>
-        </div>
+
+        <p id="moreNews" onclick="showMoreNews()">More...</p>
     </div>
 </section>
 
+<script>
+    // Initially show only 10 events
+    var events = document.querySelectorAll('.event');
+    for (var i = 10; i < events.length; i++) {
+        events[i].classList.add('hidden');
+    }
+
+    // Function to show more events
+    function showMoreNews() {
+        var hiddenEvents = document.querySelectorAll('.hidden');
+        hiddenEvents.forEach(function(event) {
+            event.classList.remove('hidden');
+        });
+        document.getElementById('moreNews').style.display = 'none'; // Hide "More..." button after clicking
+    }
+</script>
             
         <footer class="footer">
             <div class="container">
