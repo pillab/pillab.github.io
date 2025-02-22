@@ -359,7 +359,7 @@ with amazing speed and efficiency.</p>
             </div>
             <div class="event">
                 <div class="event-date"></div>
-                <div class="event-description">One paper was accepted by ICLR 2025.</div>
+                <div class="event-description">Xiangming Meng's paper was accepted by ICLR 2025.</div>
             </div>
             <div class="event">
                 <div class="event-date"></div>
@@ -367,7 +367,7 @@ with amazing speed and efficiency.</p>
             </div>
             <div class="event">
                 <div class="event-date"></div>
-                <div class="event-description">Our DMPS paper has won <span style="color: red;">ACML Best Paper Runner-UP award</span>.</div>
+                <div class="event-description">Xiangming Meng's DMPS paper has won <span style="color: red;">ACML Best Paper Runner-UP award</span>.</div>
             </div>
             <div class="event">
                 <div class="event-date"></div>
@@ -375,7 +375,7 @@ with amazing speed and efficiency.</p>
             </div>
             <div class="event">
                 <div class="event-date"></div>
-                <div class="event-description">One paper was accepted by IJCAI 2024.</div>
+                <div class="event-description">Xiangming Meng's paper was accepted by IJCAI 2024.</div>
             </div>
             <div class="event">
                 <div class="event-date"></div>
@@ -383,12 +383,12 @@ with amazing speed and efficiency.</p>
             </div>
             <div class="event">
                 <div class="event-date"></div>
-                <div class="event-description">One paper was accepted by AAAI 2024.</div>
+                <div class="event-description">Xiangming Meng's paper <a href="https://arxiv.org/abs/2302.00919">QCM-SGM+: Improved Quantized Compressed Sensing With Score-Based Generative Models</a> was accepted by AAAI 2024.</div>
             </div>
             <!-- Add more news here if needed -->
         </div>
 
-        <p id="moreNews" onclick="showMoreNews()">More...</p>
+        <p id="moreNews" onclick="toggleNews()">More...</p>
     </div>
 </section>
 
@@ -399,13 +399,26 @@ with amazing speed and efficiency.</p>
         events[i].classList.add('hidden');
     }
 
-    // Function to show more events
-    function showMoreNews() {
+    // Function to toggle (expand/collapse) news
+    function toggleNews() {
         var hiddenEvents = document.querySelectorAll('.hidden');
-        hiddenEvents.forEach(function(event) {
-            event.classList.remove('hidden');
-        });
-        document.getElementById('moreNews').style.display = 'none'; // Hide "More..." button after clicking
+        var moreNews = document.getElementById('moreNews');
+
+        if (hiddenEvents.length > 0) {
+            // Show more events
+            hiddenEvents.forEach(function(event) {
+                event.classList.remove('hidden');
+            });
+            moreNews.textContent = 'Less...';  // Change text to "Less"
+        } else {
+            // Hide extra events
+            events.forEach(function(event, index) {
+                if (index >= 10) {
+                    event.classList.add('hidden');
+                }
+            });
+            moreNews.textContent = 'More...';  // Change text back to "More"
+        }
     }
 </script>
             
